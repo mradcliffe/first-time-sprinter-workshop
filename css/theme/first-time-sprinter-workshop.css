@@ -4,6 +4,27 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
+
+.reveal .text-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+.reveal .photo-credit {
+  position: absolute;
+  font-size: x-small;
+  bottom: 1em;
+  color: #888;
+}
+
+.reveal .photo-credit a {
+  color: #ccc;
+}
+
+
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 .reveal .footer {
