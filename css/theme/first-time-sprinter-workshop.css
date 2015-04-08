@@ -37,6 +37,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-weight: 600;
   height: 100px;
   color: #fff;
+  z-index: 20;
 }
 .footer .branding--logo {
   display: inline-block;
