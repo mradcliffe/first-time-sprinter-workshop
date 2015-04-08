@@ -7,9 +7,9 @@ reveal.js documentation, visit [reveal.js GitHub repository](https://github.com/
 
 1. Title slide
 1. About me slide
-1. drupal.org/tools
+1. Tools
 1. drupal.org
-1. drupal.org/documentation
+1. Documentation
 1. drupal.org/project/[name]
 1. drupal.org/support
 1. drupal.org/irc
