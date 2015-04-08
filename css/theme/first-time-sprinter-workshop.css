@@ -32,11 +32,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   position: absolute;
   bottom: 0; display: block;
   width: 100%;
-  background: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
   font-size: .6em;
   font-weight: 600;
   height: 100px;
-  color: #000;
+  color: #fff;
 }
 .footer .branding--logo {
   display: inline-block;
