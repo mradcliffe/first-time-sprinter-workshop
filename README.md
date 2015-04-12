@@ -16,9 +16,14 @@ reveal.js documentation, visit [reveal.js GitHub repository](https://github.com/
 1. api.drupal.org
 1. Drupal Association
 1. Groups
+1. Events
 1. Jobs
-1. Drupical
 1. Register a Drupal.org account
+1. Issue queues
+1. Drupal core issue queue
+1. Filtered search
 1. Dreditor
 1. Git
+1. IRC clients
+1. Say hello
 1. Summary
