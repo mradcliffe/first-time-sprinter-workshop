@@ -315,3 +315,9 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #42affa; }
+
+@media screen and (max-width: 768px) {
+  .reveal .footer {
+    display: none;
+  }
+}
