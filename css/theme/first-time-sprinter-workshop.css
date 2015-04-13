@@ -54,7 +54,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   float: right;
   position: absolute;
   bottom: 0em;
-  right: 5em; }
+  right: 1.5em; }
 .footer .session__title, .footer .session__presenter {
   display: inline-block; }
 
