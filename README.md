@@ -1,7 +1,10 @@
 # First Time Sprinter Workshop
 
-Slide template for First Time Sprinter Workshop used at Drupal events. For
-reveal.js documentation, visit [reveal.js GitHub repository](https://github.com/hakimel/reveal.js/).
+Slide template for First Time Sprinter Workshop used at Drupal events. 
+
+View the presentation online [drupal-mentoring.github.io/first-time-sprinter-workshop](http://drupal-mentoring.github.io/first-time-sprinter-workshop/).
+
+For reveal.js documentation, visit [reveal.js GitHub repository](https://github.com/hakimel/reveal.js/).
 
 ## Outline
 
