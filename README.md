@@ -40,12 +40,13 @@ Note:
 
 
 
-<!-- .slide: data-background="custom/images/isle-of-drupal.jpg" data-background-size="1280px" -->
-## Slide title
-<!-- .element: class="hidden" -->
+<!-- .slide: data-background="custom/images/amsterdam-sprint.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCQbD" -->
+## Why are we here?
+<!-- .element: class="heading invert" -->
 
 Note:
-- Hidden title
+- A sprint is a get together to do focused work for a project
+- We do not work alone: 2-3 people work on the same issue
 
 
 
