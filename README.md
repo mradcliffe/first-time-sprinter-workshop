@@ -1,30 +1,79 @@
-# First Time Sprinter Workshop
+## <i class="fa fa-sign-in"></i> Title
+####_Subtitle_
 
-Slide template for First Time Sprinter Workshop used at Drupal events. 
 
-View the presentation online [drupal-mentoring.github.io/first-time-sprinter-workshop](http://drupal-mentoring.github.io/first-time-sprinter-workshop/).
 
-For reveal.js documentation, visit [reveal.js GitHub repository](https://github.com/hakimel/reveal.js/).
+## [bit.ly/?](http://bit.ly/?)
 
-## Outline
+Note:
+- Slides and speaker notes available online
 
-1. Title slide
-1. About
-1. Tools
-1. drupal.org
-1. Documentation
-1. drupal.org/project/[name]
-1. drupal.org/support
-1. drupal.org/irc
-1. api.drupal.org
-1. Drupal Association
-1. Groups
-1. Events
-1. Jobs
-1. Register a Drupal.org account
-1. Issue queues
-1. Filtered search
-1. Dreditor
-1. Git
-1. IRC clients
-1. Summary
+
+
+## Presenter
+<img src="custom/images/avatar.png">
+
+<a href="https://www.drupal.org/u/user"><i class="fa fa-drupal"></i> user</a>
+
+<a href="https://twitter.com/username"><i class="fa fa-twitter"></i> twitter</a>
+
+Note:
+
+
+
+<!-- .slide: data-background="custom/images/" data-background-size="" data-state="show-header" data-header="" -->
+
+Note:
+- Slide with a background image
+
+
+
+<!-- .slide: data-background="custom/images/isle-of-drupal.jpg" data-background-size="1280px" -->
+## Slide title
+<!-- .element: class="hidden" -->
+
+Note:
+- Hidden title
+
+
+
+## Slide title
+<img src="custom/images/" class="fragment">
+
+Note:
+- Image as fragment
+
+
+
+## Slide title
+<!-- .element: class="heading" -->
+
+Note:
+- Title with a box around it
+
+
+
+## Slide title
+<!-- .element: class="heading invert" -->
+
+Note:
+- Inverted
+
+
+
+> <i class="fa fa-quote-left"></i>
+> I mashed the button, but it didn't do anything.
+> <i class="fa fa-quote-right"></i>
+
+Note:
+- Quote
+
+
+
+> <!-- .element: class="invert" -->
+> <i class="fa fa-quote-left"></i>
+> Me too!
+> <i class="fa fa-quote-right"></i>
+
+Note:
+- Inverted quote with a fragment

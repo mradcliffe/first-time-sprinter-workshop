@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic,400);
+
+.reveal section img {
+  border: 0;
+  background: none;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-transform: none;
+}
+
+.reveal .attribution {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 5px 5px;
+}
+
+#attribution {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index:500;
+  padding: 0;
+  display: none;
+  text-align: right;
+  line-height: 1.6em;
+}
+
+.show-header #attribution {
+  display: block;
+  margin-top: 5px;
+  background: #000;
+  opacity: 0.65;
+  padding: 0.25em 0.5em;
+  font-size: medium;
+}
+
+h2.heading {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: rgba(22,22,22,1);
+  padding: 0.5em 2em;
+  display: inline-block;
+}
+
+h2.heading.invert {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+h2.hidden {
+  display: none;
+}
+
+.reveal blockquote {
+  font-family: 'Gentium Book Basic', serif;
+  background-color: rgba(0, 0, 0, 0.65);
+  letter-spacing: 1px;
+  text-align: left;
+  border: none;
+  padding: .25em 1em;
+}
+
+.reveal blockquote.invert {
+  background-color: rgba(255, 255, 255, 0.65);
+  color: rgba(22,22,22,1);
+}
+
+.reveal blockquote .quote-source {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: x-large;
+  text-align: right;
+  padding: .25em;
+  margin: .75em 0 0 0;
+  display: block;
+  letter-spacing: 0;
+}
+
+.reveal blockquote h1,
+.reveal blockquote h2,
+.reveal blockquote h3,
+.reveal blockquote h4 {
+  font-style: normal;
+  margin-top: .5em;
+}
+
+.reveal blockquote .quote-source a {
+  font-weight: 700;
+}
+
+.highlight {
+  background-color: #FBDA5C;
+  color: #212121;
+}

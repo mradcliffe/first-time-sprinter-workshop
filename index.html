@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>First Time Sprinter Workshop | Drupal Core Mentoring</title>
+		<title>reveal.js - template for presentations</title>
 
-		<meta name="description" content="A presentation about tools for contributing to Drupal">
-		<meta name="author" content="Drupal Core Mentoring">
+		<meta name="description" content="Talk title">
+		<meta name="author" content="Alina Mackenzie">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,8 +15,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/first-time-sprinter-workshop.css" id="theme">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="custom/style.css" id="theme">
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
@@ -38,370 +40,20 @@
 
 		<div class="reveal">
 
-      <div class="footer">
-        <div class="branding--logo" style="position: absolute; bottom: 22px; z-index: 20;">
-          <span class="logo__image">
-            <img src="images/drupal-mentor-logo.png" alt="Drupal Core Mentoring logo" height="55px" />
-          </span>
-          Drupal Core Mentoring
-        </div>
-        <div class="session--info"  style="position: absolute; bottom: 0em; z-index: 20;">
-          <p class="session__title">
-            First Time Sprinter Workshop
-          </p>
-<!--
-          <p class="session__presenter">
-            <span class="seperator">&nbsp;/&nbsp;</span>
-            Presenter Name
-          </p>
--->
-        </div>
+      <header id="attribution"></header>
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section data-markdown="README.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n\n"
+          data-separator-notes="^Note:"
+          data-charset="utf8">
+        </section>
+
       </div>
 
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section data-background="images/backgrounds/156-365-fern-by-tf28.jpg">
-          <div class="text-bg">
-            <h1>First Time Sprinter Workshop</h1>
-            <h3>Introduction to contributing to Drupal</h3>
-            <p class="photo-credit">
-              Photo CC-BY-NC-SA <a href="https://flic.kr/p/87VZ8C">TF28</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Display while people are filling the room.
-          </aside>
-				</section>
-
-        <section data-background="images/backgrounds/drupalcon-sprints-by-josef-jerabek.jpg">
-          <div class="text-bg">
-            <h1>About</h1>
-            <p>
-              <a href="http://drupal.org/core-mentoring">drupal.org/core-mentoring</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY-NC-SA <a href="https://flic.kr/p/pfS5UE">Josef Jerabek</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Who am I?
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/paint-brushes-by-karin-dalziel.jpg">
-          <div class="text-bg">
-            <h1>Tools</h1>
-            <p>
-              <a href="http://drupal.org/tools">drupal.org/tools</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY-NC <a href="https://flic.kr/p/4EZvKX">Karin Dalziel</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Explain briefly what the tools are and explain that they will need
-            to wait while we do the presentation before the files will be ready
-            to install.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-org-screenshot-blurred.jpg">
-          <div class="text-bg">
-            <h1>drupal.org</h1>
-            <p>
-              <a href="http://drupal.org">drupal.org</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of <a href="http://drupal.org">drupal.org</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Some important URLs to try and remember.
-            Commonly referred to as d.o. is the central site for all things Drupal.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/documentation-by-emma-jane-hogbin-westby.jpg">
-          <div class="text-bg">
-            <h1>Documentation</h1>
-            <p>
-              <a href="http://drupal.org/documentation">drupal.org/documentation</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY <a href="http://drupal.org">Emma Jane Hogbin Westby</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Slash documentation.
-            Guides for pretty much everything, highlight /documentation/git
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/knitting-by-tony-and-wayne.jpg">
-          <div class="text-bg">
-            <h1>Projects</h1>
-            <code>drupal.org/project/project-name</code>
-            <p>
-              Display Suite
-              <a href="http://drupal.org/project/ds">drupal.org/project/ds</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY-NC <a href="https://flic.kr/p/bkHSev">Tony & Wayne</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Slash project and the short name of the project you are looking for.
-            This doesn’t always match module name, display suite as an example /ds
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/twisted-by-beyond-neon.jpg">
-          <div class="text-bg">
-            <h1>Support</h1>
-            <p>
-              <a href="http://drupal.org/support">drupal.org/support</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY <a href="https://flic.kr/p/mnbf5">Beyond Neon</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Slash support.
-            Forums, Community Documentation, Language Specific communities, Books,
-            Professional Service Providers, Training providers
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/chicago-at-night-by-diana-nguyen.jpg">
-          <div class="text-bg">
-            <h1>Chat</h1>
-            <p>
-              <a href="http://drupal.org/irc">drupal.org/irc</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY-ND <a href="https://flic.kr/p/p6HUhT">Diana Nguyen</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            IRC which is linked from support is important for those contributing to Drupal,
-            I will elaborate on this in a little bit.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-api-screenshot.png">
-          <div class="text-bg">
-            <h1>API</h1>
-            <p>
-              Application Programming Interface <br>
-              <a href="http://api.drupal.org">api.drupal.org</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of <a href="http://api.drupal.org">Drupal API</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Allows you to search the complete Drupal Application Programming Interface docs
-            for Drupal 4.6 through 8, this will become indispensable if you are working on
-            core code or you start developing modules.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-association-by-pdjohnson.jpg">
-          <div class="text-bg">
-            <h1>Drupal Association</h1>
-            <p>
-              <a href="http://association.drupal.org">association.drupal.org</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY <a href="https://flic.kr/p/d4AekE">pdjohnson</a>, cropped.
-            </p>
-          </div>
-          <aside class="notes">
-            Helps the community with funding, infrastructure, education and more.
-            You should become a member tonight if you aren’t already.. for as
-            little as $15USD.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-camp-dakar-by-nd1mbee.jpg">
-          <div class="text-bg">
-            <h1>Groups</h1>
-            <h2>g.d.o</h2>
-            <p>
-              <a href="http://groups.drupal.org">groups.drupal.org</a>
-            </p>
-            <p class="photo-credit">
-             Photo CC-BY <a href="https://flic.kr/p/9Bfoof">nd1mbee</a>, filtered.
-            </p>
-          </div>
-          <aside class="notes">
-            g.d.o is a place for groups to organise, meet, and work on projects
-            based on interest or geographic location.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/calendar-by-dafne-cholet.jpg">
-          <div class="text-bg">
-            <h1>Events</h1>
-            <p>
-              <a href="http://drupical.com">drupical.com</a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY <a href="https://flic.kr/p/9bUbH3">Dafne Cholet</a>, filtered.
-            </p>
-          </div>
-          <aside class="notes">
-            Aggregates all Drupal events that have been posted to g.d.o and
-            displays them on an interactive map.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-jobs-screenshot.png">
-          <div class="text-bg">
-            <h1>Jobs</h1>
-            <p>
-              <a href="http://jobs.drupal.org">jobs.drupal.org</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of <a href="http://jobs.drupal.org">Drupal Jobs</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            If you want to advertise a position or are looking for work, this
-            is where you should be looking, but also check g.d.o.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/create-new-account-screenshot.png">
-          <div class="text-bg">
-            <h1>Register</h1>
-            <p>
-              <a href="http://drupal.org/user/register">drupal.org/user/register</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of new user account creation.
-            </p>
-          </div>
-          <aside class="notes">
-            To make the most of these sites you’ll want a d.o account.
-            If you don’t already have a d.o account let's create one now,
-            and/or update your profile. Also customise your dashboard.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/drupal-core-issue-queue.png">
-          <div class="text-bg">
-            <h1>Issue queue</h1>
-            <p>
-              <a href="http://drupal.org/project/issues/drupal">drupal.org/project/issues/drupal</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of Drupal core issue queue.
-            </p>
-          </div>
-          <aside class="notes">
-            Issue queues are essentially the community todo list, all projects
-            have them.
-            It’s where you can point out bugs or suggest improvements to Drupal
-            core, and people can test and fix them.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/filtered-search-screenshot.png">
-          <div class="text-bg">
-            <h1>Filtered search</h1>
-            <p>
-              <a href="http://drupal.org/project/issues/search/drupal">
-                drupal.org/project/issues/search/drupal
-              </a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of filtered search interface.
-            </p>
-          </div>
-          <aside class="notes">
-            Do a filtered search, follow an issue.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/dreditor-screenshot.png">
-          <div class="text-bg">
-            <h1>Dreditor</h1>
-            <h2>Browser plugin</h2>
-            <p>
-              <a href="http://dreditor.org">dreditor.org</a>
-            </p>
-            <p class="photo-credit">
-              Screenshot of <a href="http;//dreditor.org">Dreditor</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Makes the issue queue easier to work with, go ahead and install it
-            now. Find an issue with a patch, click the review button, click the
-            simply test me button.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/colorful-chameleon-by-tambako-the-jaguar.jpg">
-          <div class="text-bg">
-            <h1>Git</h1>
-            <h2>Version control</h2>
-            <p>
-              <a href="http://drupal.org/project/drupal/git-instructions">
-                drupal.org/project/drupal/git-instructions
-              </a>
-            </p>
-            <p class="photo-credit">
-              Photo CC-BY-ND <a href="https://flic.kr/p/ngtqu1">Tambako The Jaguar</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Git is the version control system of choice for the Drupal project.
-            It allows us to track all the changes, merge peoples work, easily
-            see changes and history.
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/a-lot-of-people-by-boris-baldinger.jpg">
-          <div class="text-bg">
-            <h1>IRC</h1>
-            <ol>
-              <li>Install IRC chat client</li>
-              <li>Join #drupaldevdays</li>
-              <li>Say "hello"</li>
-            </ol>
-            <p class="photo-credit">
-              Photo CC-BY <a href="https://flic.kr/p/pq711h">Boris Baldinger</a>.
-            </p>
-          </div>
-          <aside class="notes">
-            Besides issue queues our primary communication method is Internet
-            Relay Chat.
-            Nicknames: good to match d.o username
-            Log into #drupaldevdays and say "hi from the sprints".
-          </aside>
-        </section>
-
-        <section data-background="images/backgrounds/meteor-shower-by-nate2b.jpg">
-          <div class="text-bg">
-            <h1>Summary</h1>
-            <ul>
-              <li>drupal.org</li>
-              <li>IRC</li>
-              <li>Dreditor</li>
-              <li>Git</li>
-              <li>Text editor</li>
-            </ul>
-            <p class="photo-credit">
-              Photo CC-BY-NC-ND <a href="https://flic.kr/p/ioQH6i">nate2b</a>.
-            </p>
-          </div>
-          <aside class="notes">
-          </aside>
-        </section>
-
-			</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -412,12 +64,15 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: false,
-				progress: true,
-				history: true,
-				center: true,
 
-				transition: 'fade', // none/fade/slide/convex/concave/zoom
+        width: 1280,
+        height: 720,
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
@@ -429,6 +84,15 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+
+      Reveal.addEventListener( 'slidechanged', function( event ) {
+        // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+        if(event.currentSlide.dataset.header) {
+          attribution.innerHTML = event.currentSlide.dataset.header;
+        } else {
+          attribution.innerHTML = '';
+        }
+      });
 
 		</script>
 
