@@ -1,5 +1,13 @@
-## <i class="fa fa-sign-in"></i> Title
-####_Subtitle_
+## First time sprinter workshop
+<!-- .element: class="heading" -->
+
+Note:
+To use presentation:
+- `git clone git@github.com:drupal-mentoring/first-time-sprinter-workshop.git`
+- `cd first-time-sprinter-workshop`
+- `php -S localhost:8000`
+- open browser [http://localhost:8000](http://localhost:8000)
+
 
 
 
