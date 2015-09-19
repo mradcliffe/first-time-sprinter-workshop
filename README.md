@@ -50,43 +50,35 @@ Note:
 
 
 
-## Slide title
-<img src="custom/images/" class="fragment">
+## <a href="https://drupal.org"><i class="fa fa-drupal"></i> drupal.org</a> account
 
 Note:
-- Image as fragment
+-
 
 
 
-## Slide title
-<!-- .element: class="heading" -->
-
-Note:
-- Title with a box around it
-
-
-
-## Slide title
-<!-- .element: class="heading invert" -->
+## IRC
 
 Note:
-- Inverted
+-
 
 
 
-> <i class="fa fa-quote-left"></i>
-> I mashed the button, but it didn't do anything.
-> <i class="fa fa-quote-right"></i>
+## Issue queue
 
 Note:
-- Quote
+-
 
 
 
-> <!-- .element: class="invert" -->
-> <i class="fa fa-quote-left"></i>
-> Me too!
-> <i class="fa fa-quote-right"></i>
+## Dreditor
 
 Note:
-- Inverted quote with a fragment
+-
+
+
+
+## Contributor tools
+
+Note:
+-
