@@ -61,7 +61,7 @@
 				height: 60%;
 				overflow: auto;
 
-				font-size: 18px;
+				font-size: 15px;
 			}
 
 				.speaker-controls-time.hidden,
@@ -80,9 +80,7 @@
 
 				.speaker-controls-time {
 					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
-					margin-bottom: 10px;
-					padding: 10px 16px;
-					padding-bottom: 20px;
+					padding: 5px 16px;
 					cursor: pointer;
 				}
 
@@ -99,7 +97,7 @@
 				.speaker-controls-time .timer,
 				.speaker-controls-time .clock {
 					width: 50%;
-					font-size: 1.9em;
+					font-size: 1.0em;
 				}
 
 				.speaker-controls-time .timer {
@@ -120,10 +118,16 @@
 				}
 
 				.speaker-controls-notes .value {
-					margin-top: 5px;
 					line-height: 1.4;
 					font-size: 1.2em;
 				}
+        .speaker-controls-notes .value p,
+        .speaker-controls-notes .value ul {
+          margin: 3px 0;
+        }
+        .speaker-controls-notes .value code{
+          background: #eee;
+        }
 
 			.clear {
 				clear: both;
@@ -167,7 +171,6 @@
 			</div>
 
 			<div class="speaker-controls-notes hidden">
-				<h4 class="label">Notes</h4>
 				<div class="value"></div>
 			</div>
 		</div>
