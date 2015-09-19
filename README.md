@@ -6,7 +6,7 @@ To use presentation:
 - `git clone git@github.com:drupal-mentoring/first-time-sprinter-workshop.git`
 - `cd first-time-sprinter-workshop`
 - `php -S localhost:8000`
-- open browser [http://localhost:8000](http://localhost:8000)
+- open browser [http://localhost:8000](http://localhost:8000) or [http://bit.ly/sprinter-workshop](http://bit.ly/sprinter-workshop) (network connection required)
 
 
 
@@ -14,8 +14,7 @@ To use presentation:
 ## [bit.ly/sprinter-workshop](http://bit.ly/sprinter-workshop)
 
 Note:
-- slides and speaker notes available online
-- to update: `git checkout gh-pages`, `git rebase master`, git push origin gh-pages`
+- follow along: slides and speaker notes available online
 
 
 
