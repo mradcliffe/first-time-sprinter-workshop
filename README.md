@@ -11,10 +11,11 @@ To use presentation:
 
 
 
-## [bit.ly/?](http://bit.ly/?)
+## [bit.ly/sprinter-workshop](http://bit.ly/sprinter-workshop)
 
 Note:
-- Slides and speaker notes available online
+- slides and speaker notes available online
+- to update: `git checkout gh-pages`, `git rebase master`, git push origin gh-pages`
 
 
 
