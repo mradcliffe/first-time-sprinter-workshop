@@ -29,10 +29,14 @@ Note:
 
 
 
-<!-- .slide: data-background="custom/images/" data-background-size="" data-state="show-header" data-header="" -->
-
+## Introducing BTSync
+<!-- .element: class="heading" -->
+### [drupal.org/tools](https://www.drupal.org/tools)
 Note:
-- Slide with a background image
+- Several tools to install, but network can get slow or clogged
+- BTSync is an app for sharing files over a local network
+- Prepared tools folder with an installer script
+- Steps: install BTSync, click on the link on [drupal.org/tools](https://www.drupal.org/tools) to sync (based on your operating system)
 
 
 
