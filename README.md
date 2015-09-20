@@ -24,7 +24,6 @@ Note:
 
 
 ## Presenter
-<img src="custom/images/avatar.png">
 
 <a href="https://www.drupal.org/u/user"><i class="fa fa-drupal"></i> user</a>
 
