@@ -1,5 +1,10 @@
+<!-- .slide: data-background="custom/images/barcelona-splash.jpg" -->
+
+
+
+<!-- .slide: data-background="custom/images/amsterdam-sprint-room.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/pq711h" -->
 ## First time sprinter workshop
-<!-- .element: class="heading" -->
+<!-- .element: class="heading invert" -->
 
 Note:
 To use presentation:
@@ -41,23 +46,26 @@ Note:
 
 
 <!-- .slide: data-background="custom/images/amsterdam-sprint.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCQbD" -->
-## Why are we here?
+## Sprint
 <!-- .element: class="heading invert" -->
 
 Note:
+- Why are we here?
 - A sprint is a get together to do focused work for a project
 - We do not work alone: 2-3 people work on the same issue
 
 
 
-## <a href="https://drupal.org"><i class="fa fa-drupal"></i> drupal.org</a> account
+## <a href="https://www.drupal.org"><i class="fa fa-drupal"></i> drupal.org</a> account
 
 Note:
 -
 
 
 
+<!-- .slide: data-background="custom/images/amsterdam-webchick.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCRg4" -->
 ## IRC
+<!-- .element: class="heading" -->
 
 Note:
 -
