@@ -25,8 +25,8 @@ Note:
 
 ## Presenter
 
-* <a href="https://www.drupal.org/u/user"><i class="fa fa-drupal"></i> user</a>
-* <a href="https://twitter.com/twitter"><i class="fa fa-twitter"></i> twitter</a>
+* <a href="https://www.drupal.org/u/mradcliffe"><i class="fa fa-drupal"></i> mradcliffe</a>
+* <a href="https://twitter.com/mattkineme"><i class="fa fa-twitter"></i> mattkineme</a>
 
 Note:
 
