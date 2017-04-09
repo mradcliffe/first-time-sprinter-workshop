@@ -6,12 +6,12 @@ const defaults = require('./defaults');
 module.exports = {
   devtool: 'source-map',
   output: {
-    path: path.join(__dirname, '/../www/'),
+    path: path.join(__dirname, '/../docs/'),
     filename: 'js/app.js',
     publicPath: defaults.publicPath,
   },
   devServer: {
-    contentBase: './dist/',
+    contentBase: './docs/',
     historyApiFallback: true,
     hot: true,
     port: 8000,
