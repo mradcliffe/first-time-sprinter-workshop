@@ -16,7 +16,7 @@ To use presentation:
 
 
 
-## [bit.ly/sprinter-workshop](http://bit.ly/sprinter-workshop)
+## [http://bit.ly/2pfHjcy](http://bit.ly/2pfHjcy)
 
 Note:
 - follow along: slides and speaker notes available online
