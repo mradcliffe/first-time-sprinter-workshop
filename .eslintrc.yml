@@ -1,0 +1,14 @@
+---
+extends: airbnb
+rules:
+  no-console: 1
+  consistent-return: 1
+  no-plusplus: 0
+  no-bitwise: 0
+  no-unused-vars: 1
+  max-len: 1
+env:
+  browser: true
+  node: true
+globals:
+  window: true
