@@ -207,9 +207,9 @@ Note:
 
 
 
-<!-- .slide: data-background="images/dublin-ftsw.jpg" data-state="show-header" data-header="Photo CC-BY-SA 2.0 Michael Cannon https://flic.kr/p/MLAdCt" -->
+<!-- .slide: data-background="images/mumbai-sprint.jpg" data-state="show-header" data-header="Photo CC BY-NC 2.0 Nitesh Kumar https://flic.kr/p/DrKbeu" class="vertical" -->
 ## Sprint
-<!-- .element: class="heading invert" -->
+<!-- .element: class="heading bottom" -->
 
 Note:
 -
