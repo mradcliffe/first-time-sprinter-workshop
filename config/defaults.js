@@ -1,6 +1,5 @@
-'use strict';
-
 const path = require('path');
+
 const srcPath = path.join(__dirname, '/../src/');
 
 function getDefaultModules() {
@@ -58,8 +57,21 @@ function getDefaultModules() {
       {
         test: /\.(ttf|eot|svg)(\?v=0-9]\.[0-9]\.[0-9])?/,
         loader: 'file-loader',
+        exclude: [
+          path.resolve(__dirname, '../images/'),
+        ],
         options: {
           name: 'fonts/[name].[ext]',
+        },
+      },
+      {
+        test: /\.(svg|png|jpg)(\?v=0-9]\.[0-9]\.[0-0])?/,
+        loader: 'file-loader',
+        include: [
+          path.resolve(__dirname, '../images/'),
+        ],
+        options: {
+          name: 'images/[name].[ext]',
         },
       },
     ],
