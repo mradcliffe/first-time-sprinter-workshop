@@ -5,7 +5,7 @@
   "homepage": "https://github.com/drupal-mentoring/first-time-sprinter-workshop",
   "main": "index.js",
   "scripts": {
-    "copy": "copyfiles -u 1 src/images/*.jpg www/",
+    "copy": "copyfiles -u 1 src/images/*.jpg www/ && copyfiles -u 4 src/js/plugin/notes/notes.html www/",
     "lint": "eslint js/*.js",
     "start": "node server.js --env=dev",
     "build": "webpack --config webpack.config.js"
