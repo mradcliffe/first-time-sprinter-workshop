@@ -19,7 +19,7 @@ To use presentation:
 
 
 
-
+<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
 ## [http://bit.ly/2pfHjcy](http://bit.ly/2pfHjcy)
 
 Note:
@@ -27,6 +27,7 @@ Note:
 
 
 
+<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
 ## Presenter
 
 * <a href="https://www.drupal.org/u/mradcliffe"><i class="fa fa-drupal"></i> mradcliffe</a>
@@ -55,7 +56,7 @@ Explain briefly what the tools are and explain that they will need to wait while
 Note:
 - Why are we here?
 - A sprint is a get together to do focused work for a project
-- We do not work alone: 2-3 people work on the same issue. Your neighbors.
+- We do not work alone: 2-3 people work on the same issue. Your neighbors. Quick feedback loop.
 
 
 
