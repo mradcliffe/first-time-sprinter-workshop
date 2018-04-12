@@ -59,6 +59,10 @@
   display: none;
 }
 
+.heading.bottom {
+  margin-top: 22rem;
+}
+
 .reveal blockquote {
   font-family: 'Gentium Book Basic', serif;
   background-color: rgba(0, 0, 0, 0.65);
@@ -106,11 +110,12 @@
 }
 
 .drupalcon-logo {
-    background: url(../../images/drupalcon-baltimore.svg);
+    background: url(../../images/drupalcon-nashville.svg);
     background-repeat: no-repeat;
     background-size: 300px;
-    background-position: 50% 100%;
-    height: 300px;
+    background-position: 50% 50%;
+    height: 185px;
+    background-color: rgba(255,255,255,.85);
 }
 
 @media screen and (min-width: 900px) {

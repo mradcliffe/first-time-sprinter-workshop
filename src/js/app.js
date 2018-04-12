@@ -1,6 +1,7 @@
 
 import Reveal from 'reveal.js/js/reveal';
 import markdown from './plugin/markdown';
+import RevealNotes from './plugin/notes/notes';
 
 require('reveal.js/css/reveal.scss');
 require('reveal.js/css/theme/black.css');
@@ -35,3 +36,21 @@ Reveal.addEventListener('slidechanged', (event) => {
     attribution.innerHTML = '';
   }
 });
+
+// Open the notes when the 's' key is hit
+document.addEventListener('keydown', (event) => {
+  // Disregard the event if the target is editable or a
+  // modifier is present.
+  if (document.querySelector(':focus') !== null ||
+      event.shiftKey ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey) {
+    return;
+  }
+
+  if (event.keyCode === 83) {
+    event.preventDefault();
+    RevealNotes.openNotes();
+  }
+}, false);
