@@ -1,4 +1,4 @@
-<!-- .slide: data-background="images/baltimore-splash.jpg" data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+<!-- .slide: data-background="images/nashville_cover.jpg" data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
 <!-- .element: class="drupalcon-logo" -->
 
 Note:
@@ -92,9 +92,10 @@ Note:
 
 
 
-## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/irc" target="_blank">/irc</a>
+## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/chat" target="_blank">/chat</a>
 
 Note:
+- Drupal Slack.
 - IRC which is linked from support is somewhat important for those contributing to the drupal project, I will elaborate on this in a little bit.
 - There are other ways of communication, but IRC is still the dejure standard in the community.
 
@@ -144,17 +145,20 @@ Note:
 
 
 <!-- .slide: data-background="images/amsterdam-webchick.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCRg4" -->
-## IRC
+## Chat
 <!-- .element: class="heading" -->
 
 Note:
-- Internet Relay Chat (IRC) is our primary communication method besides the issue queue.
+- Drupal Slack and Internet Relay Chat (IRC) is our primary communication method besides the issue queue.
 - In the last 9 months, other methods such as Slack and Gittr have also been used within the community, but the dejure standard is still IRC for now.
 - Nicknames: good to match d.o. username.
 
 
 
-## freenode.net
+## Slack: drupal.org/chat
+### #contribute
+
+## IRC: Local URL
 ### #drupal-contribute
 ### #drupalcon
 
@@ -174,7 +178,7 @@ Note:
 
 Note:
 - An editor allows you to make changes to Drupal code.
-- The Community Tools installation installs Sublime Text 3, which is a basic text editor for web development. Your own Integrated Development Environment (IDE) may be better suited.
+- The Community Tools installation installs Cloud 9 IDE which is a basic text editor for web development. Your own Integrated Development Environment (IDE) may be better suited.
 
 
 
@@ -196,15 +200,6 @@ Note:
 Note:
 -Routine commands are almost all copy/paste
 -Go read this page.. you won’t be able to test these commands until the tools are installed
-
-
-
-<!-- .slide: data-background="images/amp-stack.jpg" -->
-## AMP Stack
-<!-- .element: class="heading" -->
-
-Note:
-- The community tools install a full stack of programs to run a web site on your laptop referred to as an AMP stack or Apache MYSQL and PHP.
 
 
 
