@@ -1,4 +1,4 @@
-<!-- .slide: data-background="images/baltimore-splash.jpg" data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+<!-- .slide: data-background="images/nashville_cover.jpg" data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
 <!-- .element: class="drupalcon-logo" -->
 
 Note:
@@ -19,18 +19,19 @@ To use presentation:
 
 
 
-
-## [bit.ly/sprinter-workshop](http://bit.ly/sprinter-workshop)
+<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+## [http://bit.ly/2pfHjcy](http://bit.ly/2pfHjcy)
 
 Note:
 - follow along: slides and speaker notes available online
 
 
 
+<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
 ## Presenter
 
-* <a href="https://www.drupal.org/u/user"><i class="fa fa-drupal"></i> user</a>
-* <a href="https://twitter.com/twitter"><i class="fa fa-twitter"></i> twitter</a>
+* <a href="https://www.drupal.org/u/mradcliffe"><i class="fa fa-drupal"></i> mradcliffe</a>
+* <a href="https://twitter.com/mattkineme"><i class="fa fa-twitter"></i> mattkineme</a>
 
 Note:
 
@@ -55,7 +56,7 @@ Explain briefly what the tools are and explain that they will need to wait while
 Note:
 - Why are we here?
 - A sprint is a get together to do focused work for a project
-- We do not work alone: 2-3 people work on the same issue. Your neighbors.
+- We do not work alone: 2-3 people work on the same issue. Your neighbors. Quick feedback loop.
 
 
 
@@ -91,9 +92,13 @@ Note:
 
 
 
-## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/irc" target="_blank">/irc</a>
+## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/chat" target="_blank">/chat</a>
 
 Note:
+<<<<<<< HEAD
+=======
+- Drupal Slack.
+>>>>>>> nashville-2018
 - IRC which is linked from support is somewhat important for those contributing to the drupal project, I will elaborate on this in a little bit.
 - There are other ways of communication, but IRC is still the dejure standard in the community.
 
@@ -143,17 +148,20 @@ Note:
 
 
 <!-- .slide: data-background="images/amsterdam-webchick.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCRg4" -->
-## IRC
+## Chat
 <!-- .element: class="heading" -->
 
 Note:
-- Internet Relay Chat (IRC) is our primary communication method besides the issue queue.
+- Drupal Slack and Internet Relay Chat (IRC) is our primary communication method besides the issue queue.
 - In the last 9 months, other methods such as Slack and Gittr have also been used within the community, but the dejure standard is still IRC for now.
 - Nicknames: good to match d.o. username.
 
 
 
-## freenode.net
+## Slack: drupal.org/chat
+### #contribute
+
+## IRC: Local URL
 ### #drupal-contribute
 ### #drupalcon
 
@@ -173,7 +181,7 @@ Note:
 
 Note:
 - An editor allows you to make changes to Drupal code.
-- The Community Tools installation installs Sublime Text 3, which is a basic text editor for web development. Your own Integrated Development Environment (IDE) may be better suited.
+- The Community Tools installation installs Cloud 9 IDE which is a basic text editor for web development. Your own Integrated Development Environment (IDE) may be better suited.
 
 
 
@@ -198,18 +206,9 @@ Note:
 
 
 
-<!-- .slide: data-background="images/amp-stack.jpg" -->
-## AMP Stack
-<!-- .element: class="heading" -->
-
-Note:
-- The community tools install a full stack of programs to run a web site on your laptop referred to as an AMP stack or Apache MYSQL and PHP.
-
-
-
-<!-- .slide: data-background="images/dublin-ftsw.jpg" data-state="show-header" data-header="Photo CC-BY-SA 2.0 Michael Cannon https://flic.kr/p/MLAdCt" -->
+<!-- .slide: data-background="images/mumbai-sprint.jpg" data-state="show-header" data-header="Photo CC BY-NC 2.0 Nitesh Kumar https://flic.kr/p/DrKbeu" class="vertical" -->
 ## Sprint
-<!-- .element: class="heading invert" -->
+<!-- .element: class="heading bottom" -->
 
 Note:
 -
