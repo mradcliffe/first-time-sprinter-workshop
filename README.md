@@ -30,8 +30,8 @@ Note:
 <!-- .slide: -->
 ## Presenter
 
-* <a href="https://www.drupal.org/u/mradcliffe"><i class="fa fa-drupal"></i> mradcliffe</a>
-* <a href="https://twitter.com/mattkineme"><i class="fa fa-twitter"></i> mattkineme</a>
+* <a href="https://www.drupal.org/u/username"><i class="fa fa-drupal"></i> username</a>
+* <a href="https://twitter.com/"><i class="fa fa-twitter"></i> twitter handle</a>
 
 Note:
 
