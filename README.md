@@ -1,4 +1,4 @@
-<!-- .slide: data-background="images/nashville_cover.jpg" data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+<!-- .slide: data-background="images/darmstadt.jpg" -->
 <!-- .element: class="drupalcon-logo" -->
 
 Note:
@@ -7,7 +7,7 @@ Display while people are filling the room.
 
 
 <!-- .slide: data-background="images/amsterdam-sprint-room.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/pq711h" -->
-## First time sprinter workshop
+## First time contributor workshop
 <!-- .element: class="heading invert" -->
 
 Note:
@@ -19,7 +19,7 @@ To use presentation:
 
 
 
-<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+<!-- .slide: -->
 ## [http://bit.ly/2pfHjcy](http://bit.ly/2pfHjcy)
 
 Note:
@@ -27,25 +27,13 @@ Note:
 
 
 
-<!-- .slide: data-state="show-header" data-header="Start syncing: drupal.org/tools" -->
+<!-- .slide: -->
 ## Presenter
 
 * <a href="https://www.drupal.org/u/mradcliffe"><i class="fa fa-drupal"></i> mradcliffe</a>
 * <a href="https://twitter.com/mattkineme"><i class="fa fa-twitter"></i> mattkineme</a>
 
 Note:
-
-
-
-## Introducing ResilioSync
-<!-- .element: class="heading" -->
-### [drupal.org/tools](https://www.drupal.org/tools)
-Note:
-Explain briefly what the tools are and explain that they will need to wait while we do the presentation before the files will be ready to install. Only required for those doing local code-based tasks!! Talk through each of the available tools.
-- Several tools to install, but network can get slow or clogged
-- ResilioSync is an app for sharing files over a local network
-- Prepared tools folder with an installer script
-- Steps: install ResilioSync, click on the link on [drupal.org/tools](https://www.drupal.org/tools) to sync (based on your operating system)
 
 
 
@@ -69,7 +57,16 @@ Note:
 
 
 
-## <i class="fa fa-drupal"></i> drupal.org<a href="https://www.drupal.org/association" target="_blank">/association</a>
+## <i class="fa fa-user"></i> drupal.org<a href="https://drupal.org/user/register" target="_blank">/user/register</a>
+
+Note:
+- To make the most of these sites you’ll want to have a d.o account
+- If you don’t already have a d.o account lets create one now, and/or update your profile..
+- Customise your dashboard.
+
+
+
+## <i class="fa fa-drupal"></i> drupal.org<a href="https://drupal.org/association" target="_blank">/association</a>
 
 Note:
 - Helps the community with funding, infrastructure, education and more, you should become a member tonight if you aren't already... For as little as 15 USD.
@@ -95,10 +92,7 @@ Note:
 ## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/chat" target="_blank">/chat</a>
 
 Note:
-<<<<<<< HEAD
-=======
 - Drupal Slack.
->>>>>>> nashville-2018
 - IRC which is linked from support is somewhat important for those contributing to the drupal project, I will elaborate on this in a little bit.
 - There are other ways of communication, but IRC is still the dejure standard in the community.
 
@@ -109,15 +103,6 @@ Note:
 Note:
 - Drupal core is located at slash project slash drupal.
 - Each module, theme and core itself is located from slash project and the short name of the project. Sometimes the short name does not match the actual title such as "Display Suite".
-
-
-
-## <i class="fa fa-user"></i> drupal.org<a href="https://www.drupal.org/user/register" target="_blank">/user/register</a>
-
-Note:
-- To make the most of these sites you’ll want to have a d.o account
-- If you don’t already have a d.o account lets create one now, and/or update your profile..
-- Customise your dashboard.
 
 
 
@@ -158,17 +143,15 @@ Note:
 
 
 
-## Slack: drupal.org/chat
+## Slack: <a href="https://drupal.org/chat" target="_blank">drupal.org/chat</a>
 ### #contribute
 
-## IRC: Local URL
+## IRC: <a href="https://drupal.org/irc" target="_blank">drupal.org/irc</a>
 ### #drupal-contribute
-### #drupalcon
 
-If you are not doing local dev or tools not synced
+## RocketChat: <a href="https://drupalchat.me" target="_blank">drupalchat.me</a>
+### #contribute
 
-* MacOS: <a href="https://limechat.net/mac" target="_blank" title="MacOS: LimeChat">limechat.net/mac</a>
-* Win/*nix: <a href="https://hexchat.github.io" target="_blank" title="Windows or Unix: Hexchat">hexchat.github.io</a>
 
 Note:
 - The IRC channels you'll need today are...
@@ -207,7 +190,7 @@ Note:
 
 
 <!-- .slide: data-background="images/mumbai-sprint.jpg" data-state="show-header" data-header="Photo CC BY-NC 2.0 Nitesh Kumar https://flic.kr/p/DrKbeu" class="vertical" -->
-## Sprint
+## Contribute
 <!-- .element: class="heading bottom" -->
 
 Note:
