@@ -43,8 +43,51 @@ Note:
 
 Note:
 - Why are we here?
-- A sprint is a get together to do focused work for a project
+- A contribution day is a get together to do focused work for a project.
 - We do not work alone: 2-3 people work on the same issue. Your neighbors. Quick feedback loop.
+
+
+
+## <em class="emphasize">Everyone</em> has something to contribute
+
+* We improve the Drupal <em class="emphasize">project</em>, for example:
+   * Admin UI and JavaScript Modernisation initiative
+   * Media initiative
+   * Layout Builder initiative
+* We improve <em class="emphasize">drupal.org</em>, for example:
+   * Documentation
+* We improve the Drupal <em class="emphasize">community</em>, for example:
+   * Drupal governance and community discussions
+
+Note:
+- We all have a unique and diverse background coming from many different countries, cultures, races, genders and roles.
+- You will help those around you working on issues in the project and in the community.
+- It does not matter in which role.
+- From Drupal core initiatives to sub-systems to individual bug fixes and features.
+- We make decisions by consensus after discussion, which makes a contribution day so important.
+
+
+
+## <em class="emphasize">How</em> does it work?
+
+<ol>
+  <li><i class="fa fa-users emphasize"></i> Sit at a round table</li>
+  <li><i class="fa fa-search emphasize"></i> Find 1 issue together</li>
+  <li><i class="fa fa-comments-o emphasize"></i> Discuss and establish consensus</li>
+  <li><i class="fa fa-tasks emphasize"></i> Work on remaining tasks:
+    <ul class="issue-flow workflow-grid workflow-grid--5col">
+      <li class="workflow-grid__item"><i class="fa fa-align-left emphasize block"></i> <span class="block">Update Issue</span></li>
+      <li class="workflow-grid__item"><i class="fa fa-code block emphasize"></i> <span class="block">Write patch</span></li>
+      <li class="workflow-grid__item"><i class="fa fa-cogs emphasize block"></i> <span class="block">Add a test</span></li>
+      <li class="workflow-grid__item"><i class="fa fa-photo emphasize block"></i> <span class="block">Manual test</span></li>
+      <li class="workflow-grid__item"><i class="fa fa-edit emphasize block"></i> <span class="block">Review</span></li>
+    </ul>
+  </li>
+  <li><i class="fa fa-check success"></i> RTBC</li>
+</ol>
+
+Note:
+- 
 
 
 
@@ -57,7 +100,7 @@ Note:
 
 
 
-## <i class="fa fa-user"></i> drupal.org<a href="https://drupal.org/user/register" target="_blank">/user/register</a>
+## <i class="fa fa-user"></i> register.drupal.org<a href="https://register.drupal.org/user/register" target="_blank">/user/register</a>
 
 Note:
 - To make the most of these sites you’ll want to have a d.o account
@@ -69,32 +112,27 @@ Note:
 ## <i class="fa fa-drupal"></i> drupal.org<a href="https://drupal.org/association" target="_blank">/association</a>
 
 Note:
-- Helps the community with funding, infrastructure, education and more, you should become a member tonight if you aren't already... For as little as 15 USD.
+- Helps the community with funding, infrastructure, education and more, you should become a member tonight if you aren't already... For as little as 15 USD (EUR).
 
 
 
-## <i class="fa fa-code"></i><a href="https://api.drupal.org" target="_blank"> api.</a>drupal.org
+## <i class="fa fa-users"></i> drupal.org<a href="https://www.drupal.org/community" target="_blank">/community</a>
 
 Note:
-- Allows you to search the complete Drupal Appliaction Programming Interface (API) docs for Drupal 4.6 through 8.3.0. This will become indispensible if you are working on core code or you start developing modules.
+- The Drupal community hub.
+   - We can contribute to Drupal governance initiatives here including the Community Working Group, Documentation Working Group, Core Governance, Licensing Working Group, Security Working Group, Technical Working Group.
+   - The documentation pages around Community and Getting Involved are getting a face lift and this is also a way to contribute.
 
 
 
 ## <i class="fa fa-book"></i> drupal.org<a href="https://www.drupal.org/docs" target="_blank">/docs</a>
-<i class="fa fa-question-circle"></i> drupal.org<a href="https://www.drupal.org/documentation" target="_blank">/documentation</a>
+<i class="fa fa-question-circle"></i> drupal.org<a href="https://www.drupal.org/documentation" target="_blank">/documentation</a><br />
+<i class="fa fa-code"></i><a href="https://api.drupal.org" target="_blank"> api.</a>drupal.org
 
 Note:
 - Guides for pretty much everything, highlight /documentation/git
 - A vital contribution is through documentation. We are migrating from /documentation to /docs. Older documentation via the link below.
-
-
-
-## <i class="fa fa-comments-o"></i> drupal.org<a href="https://www.drupal.org/chat" target="_blank">/chat</a>
-
-Note:
-- Drupal Slack.
-- IRC which is linked from support is somewhat important for those contributing to the drupal project, I will elaborate on this in a little bit.
-- There are other ways of communication, but IRC is still the dejure standard in the community.
+- Allows you to search the complete Drupal Appliaction Programming Interface (API) docs for Drupal 4.6 through 8.3.0. This will become indispensible if you are working on core code or you start developing modules.
 
 
 
@@ -106,7 +144,7 @@ Note:
 
 
 
-## <i class="fa fa-bug"></i> drupal.org<a href="https://drupal.org/project/issues/drupal">/project/issue/drupal</a>
+## <i class="fa fa-bug"></i> drupal.org<a href="https://drupal.org/project/issues/drupal">/project/issues/drupal</a>
 
 ### Issue Queue
 
@@ -122,23 +160,13 @@ Note:
 
 
 
-## <i class="fa fa-wrench"></i> Contributor tools
-
-Note:
--Many options exist, this combination was chosen to work best at a DrupalCon sprint
--Smallest filesize
--Fastest setup time on the day
--Mentors not having to support umpteen different environments
-
-
-
 <!-- .slide: data-background="images/amsterdam-webchick.jpg" data-state="show-header" data-header="Photo CC-BY Boris Baldinger https://flic.kr/p/paCRg4" -->
 ## Chat
 <!-- .element: class="heading" -->
 
 Note:
 - Drupal Slack and Internet Relay Chat (IRC) is our primary communication method besides the issue queue.
-- In the last 9 months, other methods such as Slack and Gittr have also been used within the community, but the dejure standard is still IRC for now.
+- Other methods such as RocketChat, Google+ and Gittr have also been used within the community. The de facto standard is now Drupal Slack.
 - Nicknames: good to match d.o. username.
 
 
@@ -158,13 +186,52 @@ Note:
 
 
 
+<!-- .slide: data-background="images/nashville-ftsw.jpg" data-state="show-header" data-header="Photo CC-BY-SA 2.0 David Needham https://flic.kr/p/253F13d" -->
+## Local Drupal Environment
+<!-- .element: class="heading" -->
+
+Note:
+- Do I need a local environment?
+- MWDS anecdote.
+
+
+
+## <i class="fa fa-wrench"></i> Introducing Quicksprint
+
+* Requirements:
+   * Windows 7 64-bit or higher
+   * MacOS El Capitan or higher
+   * Linux
+* You can <em class="emphasize">**still**</em> contribute without these tools!
+   * Drupal quick-start
+   * simplytest.me
+
+Note:
+- Many options exist, this combination was chosen to work best at a DrupalCon sprint
+- Smallest filesize
+- Fastest setup time on the day
+- Mentors not having to support umpteen different environments
+- Raise your hand/put a sticky note on your computer.
+
+
+
+<!-- .slide: data-background="images/vienna-venue.jpg" data-state="show-header" data-header="Photo CC-BY-NC-SA 2.0 Amazee Labs https://flic.kr/p/YWudPk" -->
+## Docker and ddev
+<!-- .element: class="heading" -->
+
+Note:
+- 
+
+
+
 <!-- .slide: data-background="images/nola-editor.jpg" data-state="show-header" data-header="Photo CC-BY-SA 2.0 Michael Cannon https://flic.kr/p/GZs16Q" -->
 ## Editor
 <!-- .element: class="heading" -->
 
 Note:
-- An editor allows you to make changes to Drupal code.
-- The Community Tools installation installs Cloud 9 IDE which is a basic text editor for web development. Your own Integrated Development Environment (IDE) may be better suited.
+- An editor allows you to make changes to Drupal code properly.
+- At this event we may not able to distribute a robust editor due to software licensing restrictions.
+- If you have your own Integrated Development Environment (IDE), that may be better suited, but here are several that can be configured for Drupal.
 
 
 
@@ -179,8 +246,7 @@ Note:
 
 
 
-## git <!-- .element: style="margin-top: 8rem;" -->
-<a href="https://www.drupal.org/project/drupal/git-instructions" target="_blank">drupal.org/project/drupal/git-instructions</a>
+## <i class="fa fa-code"></i> drupal.org/project/drupal/<a href="https://www.drupal.org/project/drupal/git-instructions" target="_blank">git-instructions</a>
 ![Version Control Tab](images/git-commands.png)
 
 Note:
@@ -190,7 +256,7 @@ Note:
 
 
 <!-- .slide: data-background="images/mumbai-sprint.jpg" data-state="show-header" data-header="Photo CC BY-NC 2.0 Nitesh Kumar https://flic.kr/p/DrKbeu" class="vertical" -->
-## Contribute
+## Contribute With Us
 <!-- .element: class="heading bottom" -->
 
 Note:

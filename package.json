@@ -5,10 +5,10 @@
   "homepage": "https://github.com/drupal-mentoring/first-time-sprinter-workshop",
   "main": "index.js",
   "scripts": {
-    "copy": "copyfiles -u 1 src/images/*.jpg www/ && copyfiles -u 4 src/js/plugin/notes/notes.html www/",
+    "copy": "copyfiles -u 4 src/js/plugin/notes/notes.html docs/",
     "lint": "eslint js/*.js",
-    "start": "node server.js --env=dev",
-    "build": "webpack --config webpack.config.js"
+    "start": "npm run-script copy && npm run-script lint && node server.js --env=dev",
+    "build": "npm run-script copy && npm run-script lint && webpack --config webpack.config.js"
   },
   "author": {
     "name": "Alina Mackenzie",

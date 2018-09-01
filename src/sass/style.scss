@@ -59,6 +59,18 @@
   display: none;
 }
 
+.success {
+  color: rgba(45,168,37,1);
+}
+
+.warning {
+  color: rgba(200,180,35,1);
+}
+
+.danger {
+  color: rgba(200,35,35,1);
+}
+
 .heading.bottom {
   margin-top: 22rem;
 }
@@ -109,6 +121,16 @@
   color: #212121;
 }
 
+.emphasize {
+  color: #42affa;
+  font-style: normal !important;
+
+  &.reverse {
+    background-color: #42affa;
+    color: #212121;
+  }
+}
+
 .drupalcon-logo {
     background: url(../../images/drupaleurope-darmstadt-2018.svg);
     background-repeat: no-repeat;
@@ -116,6 +138,58 @@
     background-position: 10% 50%;
     height: 300px;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.reveal {
+  .workflow-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+
+    &.issue-flow {
+      .workflow-grid__item {
+        text-align: center;
+
+        &:nth-child(1) {
+          grid-column: 3;
+        }
+
+        &:nth-child(2) {
+          grid-row: 2;
+          grid-column: 1;
+        }
+        &:nth-child(3) {
+          grid-row: 2;
+          grid-column: 5;
+        }
+        &:nth-child(4) {
+          grid-row: 3;
+          grid-column: 2;
+        }
+        &:nth-child(5) {
+          grid-row: 3;
+          grid-column: 4;
+        }
+      }
+    }
+  }
+
+  .workflow-grid--5col {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .workflow-grid__item {
+    list-style: none;
+  }
+}
+
 
 @media screen and (min-width: 900px) {
     .reveal #attribution {
